@@ -1,0 +1,13 @@
+{
+  "name": "postman-api-tests-jenkins",
+  "version": "1.0.0",
+  "description": "Testing postman api on jenkins",
+  "scripts": {
+    "postman-api-test": "newman run test/test_1.postman_collection.json"
+  },
+  "author": "Pietrangelo Masala",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
