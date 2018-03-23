@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Testing postman api on jenkins",
   "scripts": {
-    "postman-api-test": "newman run test/test_1.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
+    "postman-api-test": "newman run test/test_1.postman_collection.json --reporters cli,junit --reporter-junit-export newman.xml"
   },
   "author": "Pietrangelo Masala",
   "license": "LGPL-3.0",
